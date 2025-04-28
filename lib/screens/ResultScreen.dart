@@ -44,13 +44,13 @@ class ResultScreen extends StatelessWidget {
             SizedBox(height: 30),
             OutlinedButton.icon(
               style: OutlinedButton.styleFrom(
+                backgroundColor: Colors.white,
                 side: const BorderSide(color: Colors.white),
               ),
               onPressed: onRestart,
-              icon: const Icon(Icons.restart_alt, color: Colors.white),
               label: const Text(
                 'Restart Test',
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Color.fromARGB(255, 30, 33, 53)),
               ),
             ),
           ],

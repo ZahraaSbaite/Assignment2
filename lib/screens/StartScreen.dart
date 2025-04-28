@@ -31,13 +31,13 @@ class StartScreen extends StatelessWidget {
             const SizedBox(height: 30),
             OutlinedButton.icon(
               style: OutlinedButton.styleFrom(
+                backgroundColor: Colors.white,
                 side: const BorderSide(color: Colors.white),
               ),
               onPressed: startQuiz,
-
               label: const Text(
                 'Start Test',
-                style: TextStyle(color: Colors.white),
+                style: TextStyle(color: Color.fromARGB(255, 39, 39, 61)),
               ),
             ),
           ],
